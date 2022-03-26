@@ -1,0 +1,811 @@
+
+    /* This is navbar styling */
+  html{
+    scroll-behavior: smooth;
+  }
+  .logo {
+    height: 3vh;
+    position: relative;
+    top: 1em;
+  }
+  .header_sec{
+  display: flex;
+  justify-content: space-evenly;
+  height: 9vh;
+}
+  .this_is_neb_bar{
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #282828;
+  font-family: "Poppins"
+}
+.search_bar{
+  float: right;
+  width: 40px;
+  position: relative;
+  bottom: 2vh; 
+}
+.header-list{
+  list-style: none;
+  width: 28em;
+  justify-content: space-between;
+  display: flex;
+  
+}
+     /* This is fist section of this page */
+
+     .first_container{
+      height: 35em;
+      background-color: rgb(241, 248, 255);
+      display: flex;
+      width: auto;
+      
+    }
+   
+    .contant_of_fistdiv{
+      position: relative;
+      width: 33em;
+      left: 22vh;
+      
+      
+    
+    }
+    .circle_div{
+      height: 6vh;
+    }
+    .fist_circle{
+    position: relative;
+    top: 7vh;
+    left: 6vh;
+    }
+    .contant{
+      font-family: "Poppins";
+      position: relative;
+      bottom: 8vh;
+  
+    }
+    .info{
+      font-size: 16px;
+        color: #464646;
+        font-weight: 300;
+        font-family: "Poppins";
+        position: relative;
+        bottom: 8vh;
+    }
+    .sec_circle{
+      position: relative;
+      left: 70vh;
+      top: 4vh;
+      width: 3vh;
+    }
+    .content_all{
+      
+      width: 99vh;
+      position: relative;
+      left: 13vh;
+      top: 6vh;
+      
+  
+    }
+    .all_contant{
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .content_all h1{
+      color: #0086ff;
+      font-size: 70px;
+      font-family: 'Bungasai', sans-serif; 
+    }
+    .readmore_option{
+      display: flex;
+      position: relative;
+      top: -3em;
+    }
+    .button_read{
+      width: 22vh;
+      height: 7vh;
+      background-color: #0086ff;
+      font-size: 14px;
+      line-height: 43px;
+      color: #ffffff;
+      font-weight: 500;
+      font-family: "Poppins";
+      text-align: center;
+    }
+    .button_contact{
+      width: 22vh;
+      height: 40px;
+      background-color: rgb(241 248 255);
+      font-size: 14px;
+      line-height: 38px;
+      color: #0086ff;
+      font-weight: 500;
+      font-family: "Poppins";
+      text-align: center;
+      position: relative;
+      left: 4vh;
+      
+    }
+
+    /* .contant_of_sec_div{
+      top: 9vh;
+      position: relative;
+      left: 34vh;
+      width: 37em;
+      height: 33em
+    } */
+  .ok{
+    width: 72vh;
+    position: relative;
+    left: 19vh;
+    top: 8vh;
+    
+    position: relative;
+    left: 19vh
+  }
+
+  .first_div{
+    width: 40em;
+    position: relative;
+    top: 37px;
+    
+    
+  }
+ 
+
+.button_read:hover{
+  background-color: white;
+  color: #0086ff;
+  border: 2px solid #0086ff;
+}
+
+.button_contact:hover{
+  background-color: #0086ff;
+  color: white;
+  border: 2px solid white;
+}
+
+/* This is second container  About this page */
+
+.sec_container{
+  display: flex;
+  height: 35em;
+  
+  
+}
+
+
+.lady_img{
+  width: 74vh;
+
+}
+.second_div{
+  width: 39em;
+  
+
+}
+.second_div h1{
+    color: #0086ff;
+    font-size: 50px;
+    font-family: 'Bungasai', sans-serif;
+  }
+.about{
+  font-size: 15px;
+    color: #ff00ce;
+    font-family: "Poppins";
+    position: relative;
+    top: 3vh;
+}
+/* This is  Best Selling book section // Third Section */
+
+
+
+.third_container{
+  height: 36em;
+  background-color: #0086ff;
+  
+}
+
+
+.containt{
+  display: flex;
+  width: 157vh;
+  height: 59vh;
+  position: relative;
+  left: 22vh;
+
+
+
+}
+
+.head_ofbook{
+  color: white;
+    font-size: 50px;
+    font-family: 'Bungasai', sans-serif;
+    position: relative;
+    text-align: center;
+}
+  .pink_img{
+        position: relative;
+    bottom: 27em;
+    right: -44em;
+    
+  }
+  .about{
+    font-size: 12px;
+    color: #ff00ce;
+    font-family: "Poppins"
+  }
+  .lorem{
+    font-family: "Poppins";
+    font-size: large
+  }
+   .three_paira{
+     font-weight: 300;
+    font-family: "Poppins"
+    
+  }
+  .right{
+    position: relative;
+    top: 6px;
+
+  }
+.line_1{
+    position: relative;
+    top: 8vh;
+}
+
+
+/* Thia is all about latest blog and forth section  */
+
+
+
+.best_selles_book{
+ position: relative;
+ overflow: hidden;
+ display: flex;
+ justify-content: space-around;
+ width: 32em;
+}
+.best_selles_book2{
+  position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    width: 32em;
+ }
+
+
+.best_selles_book > img{
+ transition: transform 200ms;
+
+}
+
+.best_selles_book:hover > img{
+  transform: scale(1.05);
+}
+.about_book{
+  color: white;
+    font-family: "Poppins";
+    position: absolute;
+    bottom: 2vh;
+    text-align: center;
+    right: 1vh;
+    top: 48vh;
+ }
+
+.book_img{
+    width: 234px;
+    height: 328px;
+}
+
+.five{
+  height: 30em;
+  background-color: rgb(241, 248, 255);
+}
+
+.forth_container{
+  height: 35em;
+
+  
+}
+.container_of_forth_block{
+  display: flex;
+  width: 162vh;
+  height: 35vh;
+  position: relative;
+  left: 12em;
+  
+}
+.latest_blog{
+ width: 321px;
+    height: 222px;
+  
+}
+
+.blog_img{
+  width: 77vh;
+  height: 45vh;
+  
+}
+.latest_book{
+    font-size: 50px;
+    font-family: 'Bungasai', sans-serif;
+    position: relative;
+    color: #0086ff;
+    text-align: center
+}
+.details_of_blog{
+  position: relative;
+  height: 50px;
+  font-size: 17px;
+  color: #282828;
+  font-weight: 600;
+  font-family: "Poppins";
+  text-align: center;
+  bottom: 3vh;
+  right: 20px;
+
+}
+.info_book{
+  font-size: 14px;
+  line-height: 25px;
+  color: #595959;
+  font-family: "Poppins";
+  text-align: center;
+  right: 19px;
+  position: relative;
+  bottom: 44px;
+  left: -18px;
+}
+.read_more_icone1{
+    left: 10vh;
+    padding: 13px;
+    color: white;
+    background-color: #1b9bff;
+    font-size: 17px;
+    width: 147px;
+    text-align-last: center;
+    position: relative;
+    bottom: 45px
+}
+.read_more_icone2{
+    border-color: #1b9bff;
+    border: 2px solid #1b9bff;
+    font-size: 15px;
+    width: 147px;
+    text-align-last: center;
+    margin-left: 33%;
+    position: relative;
+    padding: 13px;
+    top: -41px;
+    left: -7vh
+}
+.read_more_icone3{
+    padding: 13px;
+    color: white;
+    background-color: #1b9bff;
+    font-size: 17px;
+    width: 147px;
+    text-align-last: center;
+    position: relative;
+    bottom: 42px;
+    left: 12vh;
+}
+
+/* This is fan love section and fifth section */
+
+
+.fifth_container{
+   height: 26em; 
+   background-color: rgb(241, 248, 255);
+   
+}
+
+.latest_book2 {
+    font-size: 50px;
+    font-family: 'Bungasai', sans-serif;
+    position: relative;
+    color: #0086ff;
+    text-align: center;
+    bottom: -5vh;
+}
+.container_ofcostomers{
+  height: 289px;
+  display: flex;
+
+}
+.line_bar{
+  position: relative;
+  bottom: 17vh;
+  left: 36vh
+}
+.fa fa-quote-left{
+
+}
+.customers{
+  width: 967px;
+  height: 215px;
+  background-color: #ffffff;
+  border: 2px solid #ffedfc;
+  position: relative;
+  left: 29vh;
+  font-size: 14px;
+  line-height: 26px;
+  color: #282828;
+  font-family: "Poppins";
+  text-align: center;
+}
+.allabout_costomers{
+    width:119vh;
+    position:relative;
+    left: 13vh;
+    bottom: -4vh;
+}
+.about_costomer{
+width: 888px;
+height: 78px;
+font-size: 14px;
+letter-spacing: 0px;
+line-height: 26px;
+color: #282828;
+font-weight: 300;
+font-family: "Poppins";
+text-align: center;
+}
+.manag{
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #0086ff;
+  font-weight: 500;
+  font-family: "Poppins";
+  position: relative;
+  top: 14px;
+}
+.subscribe_bar{
+  height: 168px;
+  background-color: #ff00ce;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 3vh;
+}
+.text{
+  font-size: 44px;
+  color: #ffffff;
+  font-family: "Bungasai";
+  position: relative;
+  bottom: 20vh;
+  left: 28vh;
+}
+.emailid_bar{
+  height: 66px;
+    border-radius: 33px;
+    background-color: #ffffff;
+    position: relative;
+    left: 26vh;
+    bottom: -8vh;
+    border: none;
+    width: 69vh;
+    padding-left: 30px;
+    font-size: 17px;
+    color: #a6a6a6;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+.submit{
+  width: 115px;
+  height: 54px;
+  border-radius: 27px;
+  background-color: #0086ff;
+  position: relative;
+  left: 3vh;
+  color: white;
+  top: 8vh;
+  border: none
+}
+four_line{
+  position: relative;
+  width: 16vh;
+}
+
+/* This is footer section //Last section   sixth  */
+
+
+.sixth_container{
+  height: 29em;
+  background-color: #102233;
+  position: relative;
+  top: 25vh;
+  
+}
+.footer{
+  display: flex;
+  width: 167vh;
+  
+  height: 18em;
+  position: relative;
+  bottom: 70vh;
+  left: 26vh;
+}
+
+.footer_content{
+  font-size: 15px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Poppins";
+  width: 44vh;
+  text-align: center;
+  position: relative;
+  bottom: -11vh;
+  
+}
+    
+.line_2{
+  position: relative;
+}
+.footer_icone{
+  position: relative;
+  left: 77em;
+  bottom: 449px;
+}
+.last_footer{
+  position: relative;
+  height: 72px;
+  background-color: #0e1821;
+  bottom: 330px;
+}
+.char_white{
+  font-size: 5px; 
+}
+.email{
+  color: #1b9bff;
+}
+.raine{
+  text-align: center;
+  color: white;
+  top: 4vh;
+  position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+ 
+ body{
+  width: 0em;
+  }
+
+
+  .third_container{
+    height: 36em;
+    background-color: #0086ff;
+  
+  }
+    
+  .sec_container{
+    display: flex;
+    height: 35em;
+    flex-direction: column;
+  }
+  
+  .containt{
+    display: flex;
+    width: 15vh;
+    height: 5vh;
+    position: relative;
+    left: 22vh;
+    flex-direction: column;
+  
+  }
+  .all_contant{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  
+  .head_ofbook{
+    color: white;
+      font-size: 50px;
+      font-family: 'Bungasai', sans-serif;
+      position: relative;
+      text-align: center;
+  }
+    .pink_img{
+          position: relative;
+      bottom: 27em;
+      right: -44em;
+    }
+    .about{
+      font-size: 12px;
+      color: #ff00ce;
+      font-family: "Poppins"
+    }
+    .lorem{
+      font-family: "Poppins";
+      font-size: large
+    }
+     .three_paira{
+       font-weight: 300;
+      font-family: "Poppins"
+      
+    }
+    .right{
+      position: relative;
+      top: 6px;
+  
+    }
+  .line_1{
+      position: relative;
+      top: 8vh;
+  }
+
+}
+ @media only screen and (max-width: 720px) {
+    
+  body{
+  
+    width: 98vw;
+  }
+  .first_container {
+    height: 35em;
+    background-color: rgb(241, 248, 255);
+    display: flex;
+    width: auto;
+    
+    flex-direction: column;
+  }
+  .content_all {
+      width: 93vw;
+      position: relative;
+      left: 2vh;
+      top: 0vh;
+      
+  }
+  .content_all h1 {
+    color: #0086ff;
+    font-size: 43px;
+    font-family: 'Bungasai', sans-serif;
+    position: relative;
+    left: 4vh;
+    top: -9vh;
+  }
+  .button_contact {
+    width: 22vh;
+    height: 40px;
+    background-color: rgb(241 248 255);
+    font-size: 14px;
+    line-height: 38px;
+    color: #0086ff;
+    font-weight: 500;
+    font-family: "Poppins";
+    text-align: center;
+    position: relative;
+    left: 26vh;
+    
+    top: -9vh;
+  }
+  .line_1{}
+  .first_div {
+    width: 0vw;
+    position: relative;
+    top: 37px;
+    
+  }
+  .second_div {
+    width: 0vw;
+    border: solid;
+  }
+  .ok {
+    width: 50vh;
+    
+    position: relative;
+    left: 3vh;
+  }
+  .blog_img {
+    width: 0vw;
+    height: 45vh
+  }
+  .container_of_forth_block {
+    display: flex;
+    width: 0vw;
+    height: 35vh;
+    position: relative;
+    left: 12em;
+    
+  }
+  .customers {
+    width: 0vw;
+    height: 215px;
+    background-color: #ffffff;
+    border: 2px solid #ffedfc;
+    position: relative;
+    left: 29vh;
+    font-size: 14px;
+    line-height: 26px;
+    color: #282828;
+    font-family: "Poppins";
+    text-align: center;
+  }
+  .footer {
+    display: flex;
+    width: 0vw;
+    
+    height: 18em;
+    position: relative;
+    bottom: 70vh;
+    left: 26vh;
+  }
+  .footer_content {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Poppins";
+    width: 0vw;
+    text-align: center;
+    position: relative;
+    bottom: -11vh;
+    
+  }
+  .allabout_costomers {
+    width: 0vw;
+    position: relative;
+    left: 13vh;
+    bottom: -4vh;
+  }
+  .book_img {
+    width: 0vw;
+    height: 328px;
+  }
+  .sec_circle {
+    position: relative;
+    left: 0vh;
+    top: 0vh;
+    width: 0vh;
+
+  }
+  .emailid_bar {
+    height: 66px;
+    border-radius: 33px;
+    background-color: #ffffff;
+    position: relative;
+    left: 0vh;
+    bottom: -8vh;
+    border: none;
+    width: 0vw;
+    padding-left: 30px;
+    font-size: 17px;
+    color: #a6a6a6;
+    font-weight: 400;
+    font-family: "Poppins";
+  }
+  .lady_img {
+    width: 145px;
+    height: 222px
+  }
+  .latest_blog {
+    width: 0vw;
+    height: 222px
+  }
+  .read_more_icone1 {
+    padding: 13px;
+    color: white;
+    background-color: #1b9bff;
+    font-size: 17px;
+    width: 0vw;
+    text-align-last: center;
+    position: relative;
+    bottom: 45px
+  }
+  .search_bar{
+    display: none;
+  }
+  .contant{
+    display: none;
+  }
+  }
